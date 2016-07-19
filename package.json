@@ -1,0 +1,22 @@
+{
+  "name": "dom-node-tostring",
+  "version": "1.0.0",
+  "description": "Get the string form of a DOM node",
+  "main": "dist/bundle.js",
+  "jsnext:main": "dist/bundle.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-test": "browserify test/src.js > test/code.js",
+    "build": "rollup -c && npm run build-test"
+  },
+  "keywords": [
+    "DOM",
+    "tostring"
+  ],
+  "author": "Quentin Engles <hollowdoor99@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "rollup-plugin-babel": "^2.6.1"
+  }
+}
