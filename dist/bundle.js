@@ -23,7 +23,6 @@ function nodeToString(node) {
         }
         //Check for children (elements) which some text nodes will have
     } else if (node.nodeType === Node.TEXT_NODE && !node.children) {
-        console.log(node.textContent);
         return node.textContent;
     }
 
