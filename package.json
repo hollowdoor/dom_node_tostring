@@ -1,6 +1,6 @@
 {
   "name": "dom-node-tostring",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get the string form of a DOM node",
   "main": "dist/bundle.js",
   "jsnext:main": "dist/bundle.es.js",
